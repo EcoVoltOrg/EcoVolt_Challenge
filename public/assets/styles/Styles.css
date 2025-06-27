@@ -1,1 +1,100 @@
-wa
+*{
+    box-sizing: border-box;
+}
+
+
+html{
+    scroll-behavior: smooth; /lentitud al scrolear en la pantalla/
+}
+
+
+h1{font-size: 3.5em; color: white;}
+h2{font-size: 2.7em;}
+h3{font-size: 1.25em;}
+ul{list-style: none;}
+li{font-size: 1.25em;}
+
+
+body{
+    font-family: roboto;
+    margin: 0;
+    text-align: justify;
+}
+
+
+button{
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 10px 30px 10px 30px ;
+    border-radius: 15px;
+    border: 1px solid #0005;
+    box-shadow: 2px 2px 10px #0005; /sobras de la caja/
+    color: white;
+    background-color: #77C043;
+}
+
+
+button:hover{
+    background-color: #65a13a; / Asemejar a que estas presionando el boton, dandole un tono mas oscuro al backg/
+}
+
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+
+header{
+    background-color: rgb(245, 245, 245);
+    padding-top: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: #77C043;
+    font-size: 1.6em;
+}
+
+
+header .container{
+    display:flex; /centrar elementos del header/
+    flex-direction: column; /Ordena los elementos del heaader en columnas/
+    align-items: center; /Centra los elementos del header/
+}
+
+
+header nav{
+    display:flex; /centrar elementos del header/
+    flex-direction: column; /Ordena los elementos del heaader en columnas/
+    text-align: center;/alinear texto al centro/
+    padding-bottom: 25px;
+}
+
+
+
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none; /quitar subrayado/
+    font-weight: bold;
+    color: black;
+}
+
+
+header a:hover{
+    color:#77C043; / Asemejar a que estas presionando el boton, dandole un tono mas oscuro al texto*/
+}
+
+
+#hero h1{
+    font-size: 5em;
+}
